@@ -1,0 +1,2 @@
+token = '5624365764:AAHkqKJ9tI0oxG1fqXB57C_fBTROf1oCuXc'
+chat_id = '-1001828054195'
