@@ -159,12 +159,12 @@ def twogenius(message):
                            reply_markup=markup)
     #bot.send_photo(message.chat.id, get(
      #   "https://sun9-62.userapi.com/impg/eiLfQcUNWsU26WjX4nPcmpBT3G-wBiHWVUqltw/_ppKmyUl3AQ.jpg?size=1279x1600&quality=95&sign=81b87e53e51f5b2a308cebf5b469014b&type=album").content)
-    bot.send_photo(message.chat.id, open('pic/eugene.jpg', 'rb'))
+    bot.send_photo(message.chat.id, open('eugene.jpg', 'rb'))
     bot.send_message(message.chat.id,
                      '\n Мерчендайзер, промоутер - https://vk.com/sashavarz')
     # bot.send_photo(message.chat.id, get(
     #     "https://sun9-48.userapi.com/impg/64zc9ZEYyHcUtrpxJYWAV6A1MSusT0jlWAb3VA/gDmX3iSStA8.jpg?size=1280x960&quality=95&sign=50cf2058f85069dab9c1e4fb97f27ecc&type=album").content)
-    bot.send_photo(message.chat.id, open('pic/sashawar.jpg', 'rb'))
+    bot.send_photo(message.chat.id, open('sashawar.jpg', 'rb'))
     bot.register_next_step_handler(msg, process_select_twogenius)
 
 
